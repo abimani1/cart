@@ -1,0 +1,349 @@
+.arrival-text span img {
+    width: 18px;
+    margin: 0px 5px 0px 0px;
+}
+
+ul.arrival-product li {
+    background-color: white;
+    box-shadow: 1px 1px 12px 1px rgb(211 206 206 / 50%);
+    width: 100%;
+}
+
+.product-val {
+    display: flex;
+    justify-content: center;
+}
+
+ul.arrival-product {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+}
+
+ul.arrival-product li {
+    position: relative;
+    background-color: white;
+    box-shadow: 1px 1px 12px 1px rgb(211 206 206 / 50%);
+    width: 23%;
+    margin: 12px;
+    list-style: none;
+    padding: 15px 0px;
+}
+
+li img {
+    width: 50%;
+    height: 40%;
+}
+
+.arrival-text p {
+    margin: 5px 10px 10px 10px;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: start;
+}
+
+.arrival-text span {
+    display: flex;
+    justify-content: start;
+    margin: 0 0 0 10px;
+}
+
+.arrival-text label {
+    display: flex;
+    margin: 0px 0px 0px 10px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #797979;
+    text-decoration: line-through;
+}
+
+.arrival-text span {
+    display: flex;
+    margin: 0px 0px 0px 10px;
+    font-size: 21px;
+    font-weight: 600;
+    color: #ef262c;
+    text-decoration: none;
+}
+
+.price {
+    display: flex;
+}
+
+.arrival-text {
+    margin: 40px 22px;
+}
+
+.arrival-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 10px 10px 10px;
+}
+
+ul.arrival-product.Selling li {
+    width: 48%;
+    display: flex;
+    align-items: center;
+
+}
+
+img.Selling {
+    width: auto;
+    height: auto;
+    margin: 0px 0px 0px 30px;
+}
+
+.Selling-product.arrival-text {
+    margin: 0 0 0 40px;
+}
+
+.arrival-text.Selling {
+    margin: 0px 30px 0 30px;
+    width: 100%;
+}
+
+.popular-sales.adds {
+    margin: 40px 10px 10px 10px;
+}
+
+.popular-sales {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.popular-sales img {
+    margin: 0px 10px 0px 0px;
+}
+
+li.all-productsales {
+    display: flex;
+}
+
+.arrival-text.Popular {
+    margin: 0;
+}
+
+.arrival-text.Popular p {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+}
+
+ul.arrival-product.Popular li.all-productsales {
+    padding: 0;
+    align-items: center;
+    height: 100px;
+    width: 31%;
+}
+
+img.all-sales {
+    width: 25%;
+    height: 60%;
+    margin: 20px;
+}
+
+.discount-adds {
+    margin: 40px 0px 0px 0px;
+    position: relative;
+}
+
+.disount-counter {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 100px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.disount-text {
+    display: flex;
+    align-items: center;
+}
+
+.text-counter {
+    display: grid;
+    text-align: start;
+    margin: 20px;
+}
+
+.text-counter label {
+    margin: 0px 0px 10px 0px;
+    font-weight: 700;
+
+}
+
+.text-counter span {
+    margin: 0px 0px 10px 0px;
+    color: #423f3f;
+}
+
+ul.champion li {
+    list-style: none;
+    width: 20%;
+}
+
+ul.champion li label {
+    background-color: #fff;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 100%;
+    width: 80%;
+    font-weight: 700;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    justify-content: center;
+}
+
+ul.champion li span {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+ul.champion {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+}
+
+label.champion1 {
+    color: #eb5757;
+
+}
+
+label.champion2 {
+    color: #2f80ed;
+
+}
+
+label.champion3 {
+    color: #219653;
+
+}
+
+label.champion4 {
+    color: #ef5da8;
+
+}
+
+.discount-adds img {
+    overflow: hidden;
+}
+
+.banner img {
+    overflow: hidden;
+}
+
+
+.shop span {
+    text-align: start;
+    text-decoration: underline #ff4500;
+    margin: 0px 10px 0px 0px;
+    color: #000;
+    letter-spacing: .025em;
+    font-weight: 600;
+}
+
+.champions h1 {
+    text-align: start;
+    font-size: 45px;
+    margin: 40px 0px 10px 0px
+}
+
+.shop {
+    justify-content: start;
+    display: flex;
+    align-items: baseline;
+}
+
+.champions {
+    position: relative;
+}
+
+.sales-champion {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    right: 0px;
+    bottom: 0;
+    margin: 50px;
+}
+
+.covers-champion {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 50px;
+}
+
+.all-cover-camps {
+    position: relative;
+}
+
+.covers-champion h4 {
+    text-align: start;
+}
+
+
+
+.covers-champion h1 {
+    text-align: start;
+    font-weight: 400;
+}
+
+.product-saver {
+    display: grid;
+    width: 100%;
+    justify-content: end;
+    margin: 0px 10px 0px 0px;
+    height: 100%;
+}
+
+.product-saver a {
+    margin: 0px 0px 20px 0px;
+    background-color: aliceblue;
+    align-items: center;
+    display: flex;
+    padding: 0px 20px;
+}
+
+.product-cart {
+    position: absolute;
+    top: 35px;
+    left: 25px;
+    right: 0px;
+    bottom: 0;
+    height: 67%;
+    width: 80%;
+}
+
+button.cart-btn {
+    width: 100%;
+    padding: 15px;
+    color: #fff;
+    border: 0px solid #fff;
+    background-color: #1868d5;
+}
+
+.cart-btn {
+    display: flex;
+    align-items: center;
+}
+
+.cart-add {
+    width: 100%;
+}
+
+.product-cart {
+    display: none;
+}

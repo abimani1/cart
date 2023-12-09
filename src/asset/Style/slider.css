@@ -1,0 +1,40 @@
+.banner-text {
+    position: absolute;
+    top: 0;
+    left: 100px;
+    bottom: 0;
+}
+
+.slider {
+    position: relative;
+}
+
+.banner-text h6 {
+    text-align: start;
+    color: #1868d5;
+    font-size: 34px;
+    font-weight: 500;
+    margin: 60px 0px 0px 0px;
+}
+
+.banner-text h1 {
+    font-size: 70px;
+    width: 50%;
+    text-align: start;
+    margin: 10px 0px 40px 0px;
+}
+
+.banner-btn {
+    justify-content: start;
+    display: flex;
+}
+
+button.shop-btn {
+    padding: 15px 50px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #1868d5;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+}

@@ -1,0 +1,88 @@
+.otp-input-container {
+    display: flex;
+}
+
+.otp-input {
+width: 40px;
+height: 50px;
+font-size: 18px;
+text-align: center;
+margin: 0 5px;
+border: 1px solid #ccc;
+border-radius: 5px ;
+outline: none;
+}
+
+.otp-card{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.otp-card-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.otp-card-header h3{
+    font-size: 18px;
+}
+
+.otp-session{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.otp-number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.otp-number p{
+    color: rgb(136, 136, 136);
+}
+
+.otp-number p b{
+    color: black;
+}
+
+.otp-resend{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.otp-resend button{
+ text-transform: uppercase;
+ border: none;
+ background-color: transparent;
+ color: red;   
+}
+
+.otp-button{
+    display: flex;
+    width: 100%;
+}
+
+.otp-button button{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 24px;
+    background-color: #1da0ff;
+    color: white;
+    font-weight: 500;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.pencilIcone{
+    margin-left: 10px;
+    color: red;
+}
