@@ -63,6 +63,7 @@ const Otp = ({handleVerifyCode,mobileNumber, setUser }) => {
                     key={index}
                     ref={(el) => (inputRefs.current[index] = el)}
                     type="text"
+                    name='otp'
                     className="otp-input"
                     value={digit}
                     onChange={(e) => handleInputChange(e, index)}

@@ -4,6 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { Link } from "react-router-dom";
 import { useQuery } from "@apollo/client";
 import { getProductCategories } from "../../../helper/queries";
+import "../../../asset/Style/header.css"
 
 const NavBar = () => {
 
@@ -44,7 +45,7 @@ const NavBar = () => {
         <ul className="main-menu">
           <li className="menu-list">
             <select className="dropdown" id="selectOption menu">
-              <option value="option1"><Link to={'/'} className="Link">Homepage</Link></option>
+              <option value="option1">Homepage</option>
               <option value="option2">CategoriesU 2</option>
               <option value="option3">Categories 3</option>
             </select>
@@ -64,13 +65,13 @@ const NavBar = () => {
             </select>
           </li>
           <li>
-            <Link to={"/aboutUs"} className="Link">
+            <Link to={"/aboutUs"} className="link">
               About
             </Link>
           </li>
           <li>Blog</li>
           <li>
-            <Link to={"/contactUs"} className="Link">
+            <Link to={"/contactUs"} className="link">
               Contact
             </Link>
           </li>

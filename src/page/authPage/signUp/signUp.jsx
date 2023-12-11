@@ -101,9 +101,9 @@ const SignUp = ({setSwitchLog, closeModal}) => {
           <div className="signup-card-body">
             <form>
 
-              <FloatingLabelInput label="Enter Your Name" type="text" onChange={(e) => onChangeUserName(e)} value={userName} />
+              <FloatingLabelInput label="Enter Your Name" name = 'userName' type="text" onChange={(e) => onChangeUserName(e)} value={userName} />
               
-              <FloatingLabelInput label="Mobile Number" type="tel" onChange={(e) => onChangeNubmer(e)} value={phoneNumber} />
+              <FloatingLabelInput label="Mobile Number" name = 'mobile Number' type="tel" onChange={(e) => onChangeNubmer(e)} value={phoneNumber} />
 
               <div className="signUp-button">
                 <button onClick={handleSendCode}>request otp</button>

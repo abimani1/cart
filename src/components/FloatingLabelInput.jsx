@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const FloatingLabelInput = ({ label, type, onChange, placeholder, value }) => {
+const FloatingLabelInput = ({ label, type, onChange, placeholder, value, name }) => {
   const [isFocused, setIsFocused] = useState(false);
 
   const handleFocus = () => {
@@ -16,6 +16,7 @@ const FloatingLabelInput = ({ label, type, onChange, placeholder, value }) => {
       <input
         type={type}
         id={label.toLowerCase()}
+        name={name}
         value={value}
         onFocus={handleFocus}
         onBlur={handleBlur}
@@ -23,7 +24,7 @@ const FloatingLabelInput = ({ label, type, onChange, placeholder, value }) => {
         placeholder={placeholder}
         required
       />
-      <label htmlFor={label.toLowerCase()}>{label}</label>
+      <label>{label}</label>
     </div>
   );
 };

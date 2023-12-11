@@ -74,7 +74,7 @@ const SignIn = ({setSwitchLog, closeModal}) => {
           </div>
           <div className="signIn-card-body">
             <form>
-              <FloatingLabelInput label = "Mobile Number" type = "tel" onChange = {(e) => setPhoneNumber(e.target.value)} value={phoneNumber} />
+              <FloatingLabelInput label = "Mobile Number" name= 'mobile Number' type = "tel" onChange = {(e) => setPhoneNumber(e.target.value)} value={phoneNumber} />
               <button  onClick={(e) => handleSendCode(e)}>Send Code</button>
             </form>
           </div>
